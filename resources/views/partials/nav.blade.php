@@ -1,7 +1,7 @@
 <nav class="navbar navbar-dark navbar-expand-lg bg-primary">
     <div class="container flex justify-content-between">
         <a class="navbar-link" href="{{route('home') }}">
-           <img class="h-32px" src="{{ url('assets/images/Logo-Unimus-Kampus-Merdeka1-1024x177.png') }}" alt="Logo"> 
+           <img class="h-32px" src="{{ url('assets/images/Logo-white.png') }}" alt="Logo"> 
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
@@ -12,7 +12,7 @@
                     <a class="nav-link {{ Route::currentRouteName() === 'home' ? 'active' : '' }}" aria-current="page" href="{{route('home') }}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ Route::currentRouteName() === 'discussions.index' ? 'active' : '' }}" href="{{ route('discussions.index') }}">Diskusi</a>
+                    <a class="nav-link {{ Route::currentRouteName() === 'discussions.index' ? 'active' : '' }}" href="{{ route('discussions.index') }}">Discussions</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-nowrap" href="#">About Us</a>

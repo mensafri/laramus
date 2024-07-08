@@ -9,7 +9,7 @@
                         <div class="d-flex flex-column flex-md-row mb-4">
                             <div class="edit-avatar-wrapper mb-3 mb-md-0 mx-auto mx-md-0">
                                 <div class="avatar-wrapper rounded-circel overflow-hidden flex-shrink-0 me-4">
-                                    <img src="{{ url('assets/images/avatar-white.png') }}" alt="" class="avatar">
+                                    <img id="avatar" src="{{ url('assets/images/avatar-white.png') }}" alt="" class="avatar">
                                 </div>
                                 <label for="picture" class="btn p-0 edit-avatar-show">
                                     <img src="{{ url('assets/images/edit-circle.png')}}" alt="Edit circle">

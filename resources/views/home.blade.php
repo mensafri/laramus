@@ -4,8 +4,8 @@
 <section class ="container hero">
     <div class ="row align-items-center h-100">
         <div class ="col-12 col-lg-6">
-            <h1>Laramus<br />Forum Unimus</h1>
-            <p class ="mb-4">Menyambungkan Keluarga UNIMUS</p>
+            <h1>Learning Around<br />UNIMUS</h1>
+            <p class ="mb-4">Share and learn your knowledge here</p>
             <a href="{{ route('auth.sign-up.show') }}" class ="btn btn-primary me-2 mb-2 mb-lg-0">Sign Up</a>
             <a href="{{ route('discussions.index') }}" class ="btn btn-secondary mb-2 mb-lg-0">Join Discussions</a>
         </div>
