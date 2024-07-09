@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\AnswerController;
+use App\Http\Controllers\DiscussionController;
+use App\Http\Controllers\My\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
